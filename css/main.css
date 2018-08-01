@@ -11,8 +11,8 @@ body {
   margin: auto;
   padding: 20px;
   width: 100%;
-  background-color: #BBB193;
-  color: #28536B;
+  background-image: linear-gradient(#7EA8BE, #4d7f99);
+  color: #F6F0ED;
   box-shadow: 0px 1px 5px black;
   position: fixed; }
   .page-header h1 {
@@ -31,6 +31,23 @@ body {
     font-weight: 700; }
 
 /* Footer */
+.page-footer {
+  width: 100%;
+  background-color: #BBB193;
+  border-top: 5px solid #C2948A; }
+  .page-footer p {
+    text-align: center;
+    padding: 20px 20px 0px 20px; }
+  .page-footer .img-wrapper {
+    margin: 0 0 0 32%; }
+  .page-footer img {
+    width: 50px;
+    padding: 20px;
+    border-radius: 50%; }
+  .page-footer img:hover {
+    background-color: #F6F0ED;
+    cursor: pointer; }
+
 .container {
   display: block;
   margin-left: 2%;
