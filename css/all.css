@@ -55,6 +55,7 @@ $white: #F6F0ED;
 $green: #BBB193;
 
 /* Fonts */
+<<<<<<< HEAD
 $normalFont: 'Poppins', sans-serif;
 $headerFont: 'Lobster', cursive;
 
@@ -85,3 +86,44 @@ body {
 
 
 /* Footer */
+=======
+$normalFont: 'Lobster', cursive;
+$headerFont: 'Poppins', sans-serif;
+
+
+
+// classes for the whole site
+
+.sectionTitle {
+
+}
+
+.sectionMain {
+
+}
+
+.content {
+	p {
+
+	}
+
+	picture {
+
+	}
+
+}
+
+// different background colours for each item set?
+
+.item1 {
+
+}
+
+.item2 {
+
+}
+
+.item3 {
+
+}
+>>>>>>> 6537ee6a0e95855b8f93f2ad32bbc2aa5ce7a870
