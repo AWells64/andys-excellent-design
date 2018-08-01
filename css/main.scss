@@ -6,7 +6,7 @@ $white: #F6F0ED;
 $green: #BBB193;
 
 /* Fonts */
-$normalFont: 'Poppins', sans-serif;
+$normalFont: 'Open Sans', sans-serif;
 $headerFont: 'Lobster', cursive;
 
 body {
@@ -23,26 +23,35 @@ body {
 .page-header {
     margin: auto;
     padding: 20px;
+    width: 100%;
     background-color: $green;
+    color: $darkBlue;
+    box-shadow: 0px 1px 5px black;
+    position: fixed;
 
     h1 {
         font-family: $headerFont;
         font-size: 2em;
         display: inline-block;
-        color: $white;
+        
     }
 
     nav {
         float: right;
-        margin-top: 20px;
+        margin: 5px 50px 0px 0px;
+
         
         a {
             margin: 0px 10px;
             text-decoration: none;
-            color: $white;
+            color: $darkBlue;
         }
     }
     
+    .active {
+        color: $white;
+        font-weight: 700;
+    }
   
 }
 
@@ -62,7 +71,7 @@ body {
 }
 
 .sectionTitle {
-    
+
 }
 
 body {
