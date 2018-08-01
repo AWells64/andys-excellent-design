@@ -17,27 +17,37 @@ body {
 }
 
 
+
+
 /* Header */
 .page-header {
     margin: auto;
     padding: 20px;
+    background-color: $green;
 
     h1 {
         font-family: $headerFont;
         font-size: 2em;
         display: inline-block;
+        color: $white;
     }
 
     nav {
         float: right;
         margin-top: 20px;
+        
+        a {
+            margin: 0px 10px;
+            text-decoration: none;
+            color: $white;
+        }
     }
+    
+  
 }
 
 
 /* Footer */
-$normalFont: 'Lobster', cursive;
-$headerFont: 'Poppins', sans-serif;
 
 
 
