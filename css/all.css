@@ -111,6 +111,7 @@ body {
 
 
 .sectionMain {
+    padding: 10%;
 
 }
 
@@ -119,7 +120,7 @@ body {
 	p {
 		width: 30%;
 		display: inline-block;
-
+        padding: 10%;
 	}
 
 	picture {

@@ -29,9 +29,13 @@ body {
 .sectionTitle h1 {
   font-family: "Poppins", sans-serif; }
 
+.sectionMain {
+  padding: 10%; }
+
 .content p {
   width: 30%;
-  display: inline-block; }
+  display: inline-block;
+  padding: 10%; }
 
 .content picture {
   width: 40%;
