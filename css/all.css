@@ -52,21 +52,20 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
   font-weight: normal;
-  line-height: 1.6em; }
+  line-height: 1.6em;
+  color: #28536B;
+  background-color: #F6F0ED; }
 
 /* Header */
 .page-header {
   margin: auto;
   padding: 20px;
-<<<<<<< HEAD
-  background-color: #BBB193; }
-=======
+  background-color: #BBB193;
   width: 100%;
   background-image: linear-gradient(#7EA8BE, #4d7f99);
   color: #F6F0ED;
   box-shadow: 0px 1px 5px black;
   position: fixed; }
->>>>>>> dc39192529c95ca449a46d92098afecd29c8660f
   .page-header h1 {
     font-family: "Lobster", cursive;
     font-size: 2em;
@@ -103,9 +102,8 @@ body {
   margin-left: 2%;
   margin-right: 2%; }
 
-body {
-  color: #F6F0ED;
-  background-color: #28536B; }
+.sectionTitle {
+  padding-top: 40px; }
 
 .container {
   padding: 5%; }
