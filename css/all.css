@@ -55,5 +55,33 @@ $white: #F6F0ED;
 $green: #BBB193;
 
 /* Fonts */
-$normalFont: 'Lobster', cursive;
-$headerFont: 'Poppins', sans-serif;
+$normalFont: 'Poppins', sans-serif;
+$headerFont: 'Lobster', cursive;
+
+body {
+    font-family: $normalFont;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+
+/* Header */
+.page-header {
+    margin: auto;
+    padding: 20px;
+
+    h1 {
+        font-family: $headerFont;
+        font-size: 2em;
+        display: inline-block;
+    }
+
+    nav {
+        float: right;
+        margin-top: 20px;
+    }
+}
+
+
+/* Footer */
