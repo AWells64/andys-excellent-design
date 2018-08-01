@@ -16,7 +16,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('combine', function () {
-	return gulp.src(['css/resets.css', 'css/main.scss'])
+	return gulp.src(['css/resets.css', 'css/main.css'])
 		.pipe(combine('all.css'))
 		.pipe(gulp.dest('./css/')); 
 }); 
