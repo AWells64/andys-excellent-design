@@ -53,21 +53,39 @@ body {
 
 // classes for the whole site
 
-.sectionTitle {
 
+body {
+	color: $white;
+	background-color: $darkBlue;
 }
+
+.container {
+	padding: 5%;
+}
+
+
+.sectionTitle {
+	h1 {
+		font-family: $headerFont;
+	}
+}
+
 
 .sectionMain {
 
 }
 
+
 .content {
 	p {
+		width: 30%;
+		display: inline-block;
 
 	}
 
 	picture {
-
+		width: 40%;
+		display: inline-block;
 	}
 
 }
@@ -78,9 +96,11 @@ body {
 
 }
 
+
 .item2 {
 
 }
+
 
 .item3 {
 
