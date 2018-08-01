@@ -1,0 +1,118 @@
+/* Colours */
+/* Fonts */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.6em;
+  color: #28536B;
+  background-color: #F6F0ED; }
+
+/* Header */
+.page-header {
+  margin: auto;
+  padding: 20px;
+  background-color: #BBB193;
+  width: 100%;
+  background-image: linear-gradient(#7EA8BE, #4d7f99);
+  color: #F6F0ED;
+  box-shadow: 0px 1px 5px black;
+  position: fixed; }
+  .page-header h1 {
+    font-family: "Lobster", cursive;
+    font-size: 2em;
+    display: inline-block;
+    color: #F6F0ED; }
+  .page-header nav {
+    float: right;
+    margin-top: 20px; }
+    .page-header nav a {
+      margin: 0px 10px;
+      text-decoration: none;
+      color: #F6F0ED; }
+
+/* Footer */
+.page-footer {
+  width: 100%;
+  background-color: #BBB193;
+  border-top: 5px solid #C2948A; }
+  .page-footer p {
+    text-align: center;
+    padding: 20px 20px 0px 20px; }
+  .page-footer .img-wrapper {
+    margin: 0 0 0 32%; }
+  .page-footer img {
+    width: 50px;
+    padding: 20px;
+    border-radius: 50%; }
+  .page-footer img:hover {
+    background-color: #F6F0ED;
+    cursor: pointer; }
+
+.container {
+  display: block;
+  margin-left: 2%;
+  margin-right: 2%; }
+
+.sectionTitle {
+  padding-top: 40px; }
+
+.container {
+  padding: 5%; }
+
+.sectionTitle h1 {
+  font-family: "Lobster", cursive;
+  font-size: 2.4em;
+  line-height: 2; }
+
+.sectionMain {
+  padding: 10px 8%; }
+
+.content p {
+  font-size: .7em;
+  line-height: 2em;
+  width: 20%;
+  padding: 10%;
+  display: inline-block; }
+
+.content img {
+  width: 40%;
+  display: inline-block; }
+
+.sectionForm {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 3%;
+  grid-template-areas: "main aside"; }
+
+.form {
+  grid-area: main; }
+
+#msg {
+  display: block;
+  width: 65%;
+  padding: 15%;
+  border: solid 2px #dee2e5; }
+
+label {
+  display: block;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: "Lobster", cursive;
+  font-weight: normal; }
+
+#name, #mail, #website {
+  display: block;
+  width: 93%;
+  padding: 1%;
+  border: solid 2px #dee2e5; }
+
+.button {
+  display: block;
+  padding-top: 2%; }
+
+.form-button {
+  border: solid 2px #fe6c7f;
+  padding: 1.3%;
+  background: #28536B; }
