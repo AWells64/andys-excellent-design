@@ -6,12 +6,53 @@ $white: #F6F0ED;
 $green: #BBB193;
 
 /* Fonts */
-$normalFont: 'Lobster', cursive;
-$headerFont: 'Poppins', sans-serif;
+$normalFont: 'Poppins', sans-serif;
+$headerFont: 'Lobster', cursive;
+
+body {
+    font-family: $normalFont;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.6em;
+}
+
+
+
+
+/* Header */
+.page-header {
+    margin: auto;
+    padding: 20px;
+    background-color: $green;
+
+    h1 {
+        font-family: $headerFont;
+        font-size: 2em;
+        display: inline-block;
+        color: $white;
+    }
+
+    nav {
+        float: right;
+        margin-top: 20px;
+        
+        a {
+            margin: 0px 10px;
+            text-decoration: none;
+            color: $white;
+        }
+    }
+    
+  
+}
+
+
+/* Footer */
 
 
 
 // classes for the whole site
+
 
 .container {
 	display: block;
@@ -22,19 +63,39 @@ $headerFont: 'Poppins', sans-serif;
 
 .sectionTitle {
 
+
+body {
+	color: $white;
+	background-color: $darkBlue;
 }
+
+.container {
+	padding: 5%;
+}
+
+
+.sectionTitle {
+	h1 {
+		font-family: $headerFont;
+	}
+}
+
 
 .sectionMain {
 
 }
 
+
 .content {
 	p {
+		width: 30%;
+		display: inline-block;
 
 	}
 
 	picture {
-
+		width: 40%;
+		display: inline-block;
 	}
 
 }
@@ -94,9 +155,11 @@ label {
 
 }
 
+
 .item2 {
 
 }
+
 
 .item3 {
 
