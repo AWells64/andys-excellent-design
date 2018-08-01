@@ -1,2 +1,19 @@
 /* Colours */
 /* Fonts */
+body {
+  color: #F6F0ED;
+  background-color: #28536B; }
+
+.container {
+  padding: 5%; }
+
+.sectionTitle h1 {
+  font-family: "Poppins", sans-serif; }
+
+.content p {
+  width: 30%;
+  display: inline-block; }
+
+.content picture {
+  width: 40%;
+  display: inline-block; }
