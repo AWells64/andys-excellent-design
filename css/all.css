@@ -52,7 +52,9 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
   font-weight: normal;
-  line-height: 1.6em; }
+  line-height: 1.6em;
+  color: #28536B;
+  background-color: #F6F0ED; }
 
 /* Header */
 .page-header {
@@ -100,9 +102,8 @@ body {
   margin-left: 2%;
   margin-right: 2%; }
 
-body {
-  color: #F6F0ED;
-  background-color: #28536B; }
+.sectionTitle {
+  padding-top: 40px; }
 
 .container {
   padding: 5%; }
