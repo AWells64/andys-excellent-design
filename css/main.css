@@ -1,7 +1,7 @@
 /* Colours */
 /* Fonts */
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   font-weight: normal;
   line-height: 1.6em;
@@ -25,11 +25,13 @@ body {
     color: #F6F0ED; }
   .page-header nav {
     float: right;
-    margin-top: 20px; }
+    margin: 0px 50px 0 0; }
     .page-header nav a {
       margin: 0px 10px;
       text-decoration: none;
       color: #F6F0ED; }
+  .page-header .active {
+    font-weight: 700; }
 
 /* Footer */
 .page-footer {
