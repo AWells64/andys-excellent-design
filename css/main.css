@@ -29,8 +29,31 @@ body {
       margin: 0px 10px;
       text-decoration: none;
       color: #F6F0ED; }
+    .page-header nav .hidden {
+      display: none; }
+    .page-header nav img {
+      display: none; }
+    @media (max-width: 700px) {
+      .page-header nav img {
+        display: inline-block;
+        cursor: pointer; }
+      .page-header nav a {
+        display: none; } }
   .page-header .active {
     font-weight: 700; }
+
+.hidden-nav {
+  background-color: #BBB193;
+  box-shadow: 0px 1px 5px black; }
+  .hidden-nav a {
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #28536B; }
+  .hidden-nav a:hover {
+    color: #F6F0ED; }
 
 /* Footer */
 .page-footer {
