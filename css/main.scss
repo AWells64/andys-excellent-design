@@ -237,6 +237,7 @@ label {
         display: inline-block;
         width: 45%;
         margin: 20px;
+        border: 1px solid $white;
     }
 
     .img-card:hover {
@@ -251,5 +252,9 @@ label {
 
     img {
         width: 100%;
+    }
+
+    p {
+        padding: 5px;
     }
 }
