@@ -1,7 +1,13 @@
 # Andys Excellent Design
 
-*This is the page of a graphic designer showcasing their work and offering their services.*
+*This is the website of a graphic designer showcasing their work and offering their services.*
 
+## Sass
+
+This page uses sass to organise and increase functionality of the css
+
+
+## Plugin Setup
 
 The page is using a variety of gulp plugins as detailed in the package.json.
 
