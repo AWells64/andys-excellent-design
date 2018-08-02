@@ -238,11 +238,13 @@ label {
         width: 45%;
         margin: 20px;
         border: 1px solid $white;
+        transition: border .2s;
     }
 
     .img-card:hover {
         box-shadow: 0px 1px 5px black;
         border: 1px solid $darkBlue;
+        transition: border .4s;
     }
     
     h3 {
