@@ -1,0 +1,302 @@
+/* Colours */
+$darkBlue: #28536B;
+$brown: #C2948A;
+$lightBlue: #7EA8BE;
+$white: #F6F0ED;
+$green: #BBB193;
+
+/* Fonts */
+$normalFont: 'Open Sans', sans-serif;
+$headerFont: 'Lobster', cursive;
+
+body {
+    font-family: $normalFont;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.6em;
+    color: $darkBlue;
+	background-color: $white;
+}
+
+
+/* Header */
+.page-header {
+    margin: auto; 
+    padding: 20px;
+    background-color: $green;
+    width: 100%;
+    background-image: linear-gradient($lightBlue, #4d7f99);
+    color: $white;
+    box-shadow: 0px 1px 5px black;
+    //position: fixed;
+
+
+    h1 {
+        font-family: $headerFont;
+        font-size: 2em;
+        display: inline-block;
+        color: $white;
+    }
+
+    nav {
+        float: right;
+        margin: 0px 50px 0 0;
+        
+        a {
+            margin: 0px 10px;
+            text-decoration: none;
+            color: $white;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        img {
+            display: none;
+        }
+
+        @media (max-width: 700px) {
+            img {
+                display: inline-block;
+                cursor: pointer;
+            }
+
+            a {
+                display: none;
+            }
+        }
+    }
+
+    .active {
+        font-weight: 700;
+    }
+}
+
+.hidden-nav {
+
+    background-color: $green;
+    box-shadow: 0px 1px 5px black;
+
+    a {
+        display: block;
+        text-align: center;
+        padding: 10px 0px;
+        text-decoration: none;
+        font-weight: 700;
+        color: $darkBlue;
+    }
+
+    a:hover {
+        color: $white;
+    }
+}
+
+
+/* Footer */
+
+.page-footer {
+    width: 100%;
+    background-color: $green;
+    border-top: 5px solid $brown;
+    
+    p {
+        text-align: center;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .img-wrapper {
+        margin: auto;
+        width: 70%;
+    }
+
+    img {
+        width: 50px;
+        padding: 20px;
+        border-radius: 50%;
+    }
+
+    img:hover {
+        background-color: $white;
+        cursor: pointer;
+    }
+
+    .footer-content {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+// classes for the whole site
+
+
+.container {
+	display: block;
+    padding: 2% 5% 3% 5%; 
+}
+
+.sectionTitle {
+	padding-top: 40px;
+    
+}
+
+
+.sectionTitle {
+	h1 {
+		font-family: $headerFont;
+		font-size: 2.4em;
+		line-height: 2;
+	}
+}
+
+
+.sectionMain {
+	padding: 10px 8%;
+}
+
+
+.content {
+	p {
+		font-size: .7em;
+		line-height: 2em;
+		width: 20%;
+		padding: 10%;
+		display: inline-block;
+
+	}
+
+	img {
+		width: 40%;
+		display: inline-block;
+	}
+
+}
+ // form styling 
+
+.sectionForm {
+	display: grid;
+	grid-template-columns: 2fr 1fr ;
+	grid-template-rows: repeat(2, auto);
+	grid-gap: 3%;
+	grid-template-areas:
+		"main aside"
+	; 
+}
+
+.form {
+	grid-area: main; 
+}
+
+#msg {
+	display: block; 
+	width: 69%;
+	padding: 15%; 
+	border: solid 2px #dee2e5;
+}
+
+label {
+	display: block; 
+	padding-top: 2%; 
+	padding-bottom: 2%;
+	font-family: $headerFont; 
+	font-weight: normal; 
+}
+
+#name, #mail, #website {
+	display: block; 
+	width: 95%;
+	padding: 2%; 
+	border: solid 2px #dee2e5;
+}
+
+.button {
+	display: block;
+	padding-top: 4%; 
+}
+
+.form-button {
+	border: solid 2px #dee2e5; 
+	padding: 1.5%; 
+    width: 20%;
+    font-family: $normalFont;
+    background-image: linear-gradient($darkBlue, #4d7f99);
+    color: $white; 
+    cursor: pointer; 
+}
+
+// different background colours for each item set?
+
+.item1 {
+
+}
+
+
+// .item2 {
+// 	picture {
+// 		width: 40%;
+// 		padding-top: 10%;
+// 		float: left;
+// 	}
+// 	img {
+// 		width: 100%;
+// 	}
+// 	p {
+// 		float: left;
+// 	}
+// 	overflow: auto;
+// }
+
+
+.item3 {
+
+}
+
+
+/* Gallery Page */
+
+.gallery-header {
+    padding: 30px;
+
+    h2 {
+        font-size: 2em;
+        font-family: $headerFont;
+    }
+}
+
+.img-row {
+    width: 80%;
+    margin: auto;
+
+    .img-card {
+        display: inline-block;
+        width: 45%;
+        margin: 20px;
+        border: 1px solid $white;
+        transition: border .2s;
+    }
+
+    .img-card:hover {
+        box-shadow: 0px 1px 5px black;
+        border: 1px solid $darkBlue;
+        transition: border .4s;
+    }
+    
+    h3 {
+        text-align: center;
+        font-weight: 700;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    p {
+        padding: 5px;
+    }
+
+    @media (max-width: 1300px) {
+        .img-card {
+            width: 90%;
+        }
+    }
+}
