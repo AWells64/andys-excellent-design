@@ -111,7 +111,7 @@ body {
   border: 1px solid #28536B;
   transition: border .4s; }
 
-h2 {
+.sub-title {
   font-family: "Lobster", cursive;
   font-size: 2em;
   margin-top: 50px;
