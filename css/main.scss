@@ -96,8 +96,8 @@ body {
 
 .page-footer {
     width: 100%;
-    background-color: $green;
-    border-top: 5px solid $brown;
+    background-color: $brown;
+    box-shadow: 0px 1px 5px black;
     
     p {
         text-align: center;
@@ -107,6 +107,7 @@ body {
     .img-wrapper {
         margin: auto;
         width: 70%;
+        padding: 10px 0 10px 0; 
     }
 
     img {
@@ -229,8 +230,7 @@ label {
 	padding-top: 4%; 
 }
 
-.form-button {
-	border: solid 2px #dee2e5; 
+.form-button { 
 	padding: 1.5%; 
     width: 20%;
     font-family: $normalFont;
