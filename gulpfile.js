@@ -5,6 +5,7 @@ let rename = require("gulp-rename");
 let gulpSequence = require('gulp-sequence');
 let watch = require('gulp-watch'); 
 let cleanCSS = require('gulp-clean-css');
+var htmlmin = require('gulp-html-minifier2');
 
 
 gulp.task('sass', function () {
@@ -28,6 +29,12 @@ gulp.task('minify-css', () => {
 		.pipe(gulp.dest('./css/'));
 
 }); 
+
+gulp.task('minify', function() {
+	gulp.src('./*.html')
+	  .pipe(htmlmin({collapseWhitespace: true}))
+	  .pipe(gulp.dest('./'))
+  });
 
 gulp.task('styles', function(callback){
 	gulpSequence('sass', 'combine', 'minify-css')(callback)
