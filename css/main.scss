@@ -259,4 +259,10 @@ label {
     p {
         padding: 5px;
     }
+
+    @media (max-width: 1300px) {
+        .img-card {
+            width: 90%;
+        }
+    }
 }

@@ -198,3 +198,6 @@ label {
     width: 100%; }
   .img-row p {
     padding: 5px; }
+  @media (max-width: 1300px) {
+    .img-row .img-card {
+      width: 90%; } }
