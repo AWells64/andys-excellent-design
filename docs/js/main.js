@@ -1,0 +1,1 @@
+let menuButton=document.getElementById("js__menu-button"),hiddenNav=document.getElementById("js__hidden-nav");menuButton.addEventListener("click",()=>{"none"===hiddenNav.style.display?hiddenNav.style.display="block":hiddenNav.style.display="none"});
