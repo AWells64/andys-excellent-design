@@ -18,10 +18,6 @@ body {
 	background-color: $white;
 }
 
-
-
-
-
 /* Header */
 .page-header {
     margin: auto; 
@@ -102,6 +98,7 @@ body {
 
 .sectionTitle {
 	padding-top: 40px;
+    margin-bottom: 50px;
     
 }
 
@@ -114,6 +111,11 @@ body {
 	}
 }
 
+.intro-para {
+    width: 100%;
+    margin-top: 20px;
+}
+
 
 .sectionMain {
 	padding: 10px 8%;
@@ -122,20 +124,36 @@ body {
 
 .content {
 	p {
-		font-size: .7em;
+		font-size: 1em;
 		line-height: 2em;
-		width: 20%;
+		width: 29%;
 		padding: 10%;
 		display: inline-block;
 
 	}
 
 	img {
-		width: 40%;
+		width: 50%;
 		display: inline-block;
+        box-shadow: 0px 1px 5px black;
+        border: 1px solid $darkBlue;
+        transition: border .4s;
 	}
 
+
+       
+
 }
+
+h2 {
+    font-family: $headerFont; 
+    font-size: 2em; 
+    margin-top: 50px;
+    font-weight: bold;  
+
+
+}
+
  // form styling 
 
 .sectionForm {
@@ -154,7 +172,7 @@ body {
 
 #msg {
 	display: block; 
-	width: 69%;
+	width: 74%;
 	padding: 15%; 
 	border: solid 2px #dee2e5;
 }
@@ -167,9 +185,9 @@ label {
 	font-weight: normal; 
 }
 
-#name, #mail, #website {
+#name, #mail {
 	display: block; 
-	width: 95%;
+	width: 100%;
 	padding: 2%; 
 	border: solid 2px #dee2e5;
 }
@@ -187,11 +205,17 @@ label {
     background-image: linear-gradient($darkBlue, #4d7f99);
     color: $white; 
     cursor: pointer; 
+    margin: 1px; 
 }
 
 // different background colours for each item set?
 
+
 .item1 {
+    picture {
+        width: 50%;
+        margin-top: 20px;
+    }
 
 }
 
